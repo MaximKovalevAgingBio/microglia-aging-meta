@@ -14,7 +14,7 @@ Our analysis is built entirely on open-access data from GEO and other resources,
 * `CS-CORE_commands.txt` — Terminal guide containing console commands for CS-CORE matrix calculation.
 
 ## Pipeline Generalization Note
-The remaining integrated datasets were processed using the exact same logical pipelines as demonstrated in the reference files, with minor adjustments applied for dataset-specific metadata column names (e.g., sample vs. sample_region) or model configurations (e.g., Bonferroni correction for DS3, disease-specific models for macaque tissue).
+The remaining integrated datasets were processed using the exact same logical pipelines as demonstrated in the reference files, with minor adjustments applied for dataset-specific metadata column names (e.g., sample vs. sample_region) or model configurations (e.g., Bonferroni correction for DS3, species-specific model for macaque datasets).
 
 ## Citation
 *Manuscript in preparation*
