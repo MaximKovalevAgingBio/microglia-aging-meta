@@ -6,8 +6,7 @@ This repository contains the official computational pipeline and source code for
 Our analysis is built entirely on open-access data from GEO and other resources, as described in the original articles. The pre-processed versions of our datasets, including information about donors, predicted cell types, and clusters, are available on Zenodo at https://doi.org/10.5281/zenodo.20445437.
 
 ## Repository Structure
-* `01_dataset1_processing.ipynb` — Reference preprocessing, quality control filtration, and Leiden clustering pipeline (demonstrated on Dataset 1). Optimized for Google Colab execution.
-* [Fully Rendered Web Report (Interactive HTML)](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/01_dataset1_processing.html)
+* `01_dataset1_processing.ipynb` — Reference preprocessing, quality control filtration, and Leiden clustering pipeline, followed by marker gene selection, quasi-binomial logistic regression, and pseudobulk analysis (demonstrated on Dataset 1). Optimized for Google Colab execution. [HTML](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/01_dataset1_processing.html)
 * `02_Human_vs_NHP_pipeline.ipynb` — Comparative evolutionary pipeline running Linear Mixed-Effects Model (LMM) regression and donor-specific logFC analysis between human and macaque datasets.
 * `03_downstream_analysis.ipynb` — Downstream pipeline integration for CS-CORE co-expression outputs, transcription factor (TF)-target networks, and pseudo-bulk processing.
 * `04_epigenetics_linger.ipynb` — Chromatin accessibility profiling (snATAC-seq) and cis-regulatory element inference via LINGER.
