@@ -7,7 +7,7 @@ Our analysis is built entirely on open-access data from GEO and other resources,
 
 ## Repository Structure
 * `01_dataset1_processing.ipynb` — Reference preprocessing, quality control filtration, and Leiden clustering pipeline (demonstrated on Dataset 1). Optimized for Google Colab execution.
-* [Fully Rendered Web Report (Interactive HTML)](https://github.io/blob/main/01_dataset1_processing.html) — Use this link to view all QC plots, UMAPs, and cluster logs directly in your browser without execution.
+* [Fully Rendered Web Report (Interactive HTML)](https://htmlpreview.github.io/blob/main/01_dataset1_processing.html) — Use this link to view all QC plots, UMAPs, and cluster logs directly in your browser without execution.
 * `02_Human_vs_NHP_pipeline.ipynb` — Comparative evolutionary pipeline running Linear Mixed-Effects Model (LMM) regression and donor-specific logFC analysis between human and macaque datasets.
 * `03_downstream_analysis.ipynb` — Downstream pipeline integration for CS-CORE co-expression outputs, transcription factor (TF)-target networks, and pseudo-bulk processing.
 * `04_epigenetics_linger.ipynb` — Chromatin accessibility profiling (snATAC-seq) and cis-regulatory element inference via LINGER.
