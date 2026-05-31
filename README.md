@@ -11,10 +11,11 @@ Our analysis is built entirely on open-access data from GEO and other resources,
 * `03_cscore_coexpression_matrices.ipynb` — Contains analytical code to evaluate gene co-expression values for 183 pre-selected genes based on the CS-CORE method. [HTML](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/03_cscore_coexpression_matrices.html)
 * `05_tf_target_networks.ipynb` — Analytical framework for processing the pan-dataset TF-target interaction matrix derived from hdWGCNA to evaluate target gene regulation profiles. [HTML](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/05_tf_target_networks.html)
 * `06_epigenetics_linger.ipynb` — Chromatin accessibility profiling (snATAC-seq) and cis-regulatory element inference via LINGER.
-* `hdWGCNA_commands.txt` — Terminal guide containing console commands and parameter layouts used to execute hdWGCNA modules.
-* `CS-CORE_commands.txt` — Terminal guide containing console commands for CS-CORE matrix calculation.
+* `R1_hdWGCNA_commands.R` — Executable pipeline for hdWGCNA execution (modules construction, followed by TF-target network creation).
+* `R2_CSCORE_commands.R` — CS-CORE pipeline to calculate all-against-all gene co-expression matrix in the Seurat object. Example for Dataset 1 given.
 
 ## Pipeline Generalization Note
+For `01_dataset1_processing.ipynb` and `R2_CSCORE_commands.R`.
 The remaining integrated datasets were processed using the exact same logical pipelines as demonstrated in the reference files, with minor adjustments applied for dataset-specific metadata column names (e.g., sample vs. sample_region) or model configurations (e.g., Bonferroni correction for DS3, species-specific model for macaque datasets).
 
 ## Citation
