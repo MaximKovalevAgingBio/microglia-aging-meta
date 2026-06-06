@@ -11,7 +11,7 @@ Our analysis is built entirely on open-access data from GEO and other resources,
 * `03_cscore_coexpression_matrices.ipynb` — Contains analytical code to evaluate gene co-expression values for 183 pre-selected genes based on the CS-CORE method. [HTML](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/03_cscore_coexpression_matrices.html)
 * `04_pseudobulk_analysis.ipynb` — Contains analytical code to evaluate cross-dataset pseudobulk gene expression behavior across aging and disease conditions. [HTML](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/04_pseudobulk_analysis.html)
 * `05_tf_target_networks.ipynb` — Analytical framework for processing the pan-dataset TF-target interaction matrix derived from hdWGCNA to evaluate target gene regulation profiles. [HTML](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/05_tf_target_networks.html)
-* `06_epigenetics_linger.ipynb` — Chromatin accessibility profiling (snATAC-seq) and cis-regulatory element inference via LINGER.
+* `06_epigenetics_gpnmbvshomeos.ipynb` — Evaluates chromatin accessibility profiles and differential accessibility regions (DARs) between GPNMB+ and homeostatic microglial nuclei for Datasets 8 and 9. [HTML](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/06_epigenetics_gpnmbvshomeos.html)
 * `R1_hdWGCNA_commands.R` — Executable pipeline for hdWGCNA execution (modules construction, followed by TF-target network creation).
 * `R2_CSCORE_commands.R` — CS-CORE pipeline to calculate all-against-all gene co-expression matrix in the Seurat object. Example for Dataset 1 given.
 
