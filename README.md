@@ -3,7 +3,7 @@
 This repository contains the official computational pipeline and source code for the single-nucleus meta-analysis of microglial alterations in brain aging and neurodegenerative diseases (Alzheimer's disease, Parkinson's disease, amyotrophic lateral sclerosis, frontotemporal lobar degeneration) across humans and non-human primates (NHPs).
 
 ## Data Availability
-Our analysis is built entirely on open-access data from GEO and other resources, as described in the original articles. The pre-processed versions of our datasets, including information about donors, predicted cell types, and clusters, are available on Zenodo at https://doi.org/10.5281/zenodo.20445437.
+Our analysis is built entirely on open-access data from GEO and other resources, as described in the original articles. The pre-processed versions of our datasets, including information about donors, predicted cell types, and clusters, are available on Zenodo at https://doi.org/10.5281/zenodo.20445437. This Zenodo repository also contains full hdWGCNA module structures and CS-CORE interaction matrices, pseudobulk differential expression results, the reconstructed TF-target regulatory model, as well as paired snATAC-seq AnnData files, differentially accessible regions (DARs), and LINGER outputs. Many of these files are used in this GitHub project.
 
 ## Repository Structure
 * `01_dataset1_processing.ipynb` — Reference preprocessing, quality control filtration, and Leiden clustering pipeline, followed by marker gene selection, quasi-binomial logistic regression, and pseudobulk analysis (demonstrated on Dataset 1). Optimized for Google Colab execution. [HTML](https://htmlpreview.github.io/?https://github.com/MaximKovalevAgingBio/microglia-aging-meta/blob/main/01_dataset1_processing.html)
